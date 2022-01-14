@@ -1,7 +1,7 @@
-#include "Linked_list.h"
-#include "Vector.h"
-#include <iostream>
-#include <algorithm>
+//#include "Linked_list.h"
+//#include "Vector.h"
+#include "Stack.h"
+
 int main()
 {	
 //µ¥Á´±í
@@ -50,4 +50,27 @@ using namespace My_vector;
 	}
 	cout<<endl;
 */
+
+//Stack
+/*
+	using namespace My_Stack;
+	std::vector<int> arr = {1,2,3,4};
+	Stack<int>tStack(12);
+	tStack.init(arr);
+	tStack.print_elems();
+	cout << endl;
+	tStack.push(5);
+	tStack.print_elems();
+	cout << endl;
+	int x;
+	tStack.pop(x);
+	tStack.print_elems();
+	cout << endl;
+	tStack.print_elem(2);
+	std::cout<<"isFull?:"<<tStack.full()<<" isEmpty? :"<<tStack.empty()<<endl;
+	tStack.clear();
+	tStack.print_elems();
+	cout << endl;
+*/
+	return 0;
 }
