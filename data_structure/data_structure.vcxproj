@@ -124,6 +124,9 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClInclude Include="Linked_list.h" />
+    <ClInclude Include="Map.h" />
+    <ClInclude Include="RBTree.h" />
+    <ClInclude Include="Set.h" />
     <ClInclude Include="Stack.h" />
     <ClInclude Include="Vector.h" />
   </ItemGroup>

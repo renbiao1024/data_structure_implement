@@ -1,7 +1,8 @@
 //#include "Linked_list.h"
 //#include "Vector.h"
-#include "Stack.h"
-
+//#include "Stack.h"
+#include "Set.h"
+#include "Map.h"
 int main()
 {	
 //µ¥Á´±í
@@ -51,7 +52,7 @@ using namespace My_vector;
 	cout<<endl;
 */
 
-//Stack
+//Õ»
 /*
 	using namespace My_Stack;
 	std::vector<int> arr = {1,2,3,4};
@@ -71,6 +72,36 @@ using namespace My_vector;
 	tStack.clear();
 	tStack.print_elems();
 	cout << endl;
+*/
+
+/*set
+	Set<int>S;
+	S.Insert(1);
+	S.Insert(2);
+	S.Insert(3);
+	S.Find(3);
+
+	Set<int>::Iterator it = S.Begin();
+	while (it != S.End())
+	{
+		cout<<*it<< " ";
+		++it;
+	}
+	cout<<endl;
+*/
+/*Map
+	Map<int,int> m;
+	m.Insert(make_pair(1,2));
+	m.Insert(make_pair(2,3));
+	m.Insert(make_pair(3,4));
+	m.Insert(make_pair(4,5));
+	m[5] = 6;
+	auto i = m.Begin();
+	while (i != m.End())
+	{
+		cout<<i->first<<" "<<i->second;
+	}
+	cout<<endl;
 */
 	return 0;
 }
